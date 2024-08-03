@@ -43,7 +43,7 @@ class CpuBus {
       return this._nes._ctl;
     }
 
-    if (address >= 0x8000 && address <= 0xffff) {
+    if (address >= 0xc000 && address <= 0xffff) {
       return this._nes._rom;
     }
     
