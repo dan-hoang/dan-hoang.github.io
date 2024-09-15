@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mario Bros.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/favicon.ico" rel="icon" />
+    <link href="/styles/all-pages.css" rel="stylesheet" />
+    <link href="/styles/mario.css" rel="stylesheet" />
+    <script src="/scripts/mario.js" type="module"></script>
+  </head>
+  <body>
+    <nav><p><a href="/">back</a></p></nav>
+    <h1><cite>Mario Bros.</cite></h1>
+    <pre id="debug"></pre>
+    <canvas width="256" height="240"></canvas>
+    <div id="controls">
+      <button id="ready">Ready? Click me to load the game...</button>
+      <div class="button-row">
+        <button id="up-1" class="mario">↑</button>
+        <button id="up-2" class="luigi">↑</button>
+      </div>
+      <div class="button-row">
+        <button id="left-1" class="mario">←</button>
+        <button id="left-2" class="luigi">←</button>
+      </div>
+      <div class="button-row">
+        <button id="right-1" class="mario">→</button>
+        <button id="right-2" class="luigi">→</button>
+      </div>
+      <div class="button-row">
+        <button id="mode">mode</button>
+        <button id="play">play & pause</button>
+      </div>
+    </div>
+    <p><cite>Mario Bros.</cite> Play as dynamic duo <em>Mario</em> and <em>Luigi</em> and rid New York’s sewers of giant mutant turtles, crabs, and flies.</p>
+    <p>During the title sequence, press “mode” to choose a mode, and press “play” to begin play.</p>
+    <p>During play, press the red buttons or <kbd>q</kbd><kbd>w</kbd><kbd>e</kbd> on a keyboard to move <em>Mario</em>; press the green buttons or <kbd>b</kbd><kbd>n</kbd><kbd>m</kbd> on a keyboard to move <em>Luigi</em>.</p>
+  </body>
+</html>
